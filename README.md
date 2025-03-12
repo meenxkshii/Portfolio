@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+🌟 My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 A personal portfolio website built with React & TailwindCSS, featuring project showcases, a contact form (integrated with a Spring Boot email service), and smooth UI animations.
 
-## Available Scripts
 
-In the project directory, you can run:
+📌 Features
+✅ Beautiful UI – Modern design with a responsive layout
+✅ Dynamic Projects Section – Showcases key projects
+✅ Contact Form – Integrated with Spring Boot backend to send emails
+✅ Skills & Experience – Highlighting tech stack and expertise
+✅ GitHub & LinkedIn Links – Easy access to my profiles
+✅ Dark Theme – Stylish UI with background image support
 
-### `npm start`
+🛠 Tech Stack
+Frontend:
+🌐 React.js
+🎨 TailwindCSS
+🏗️ Framer Motion (for animations)
+Backend:
+☕ Spring Boot
+📩 SMTP Email Service (Gmail)
+🛢️ MySQL Database (for storing form submissions)
+🚀 Installation & Setup
+1️⃣ Clone the repository:
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+2️⃣ Install dependencies:
+npm install
+3️⃣ Start the development server:
+npm start
+The website will be live at http://localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📩 Backend Setup (Spring Boot Email Service)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1️⃣ Configure SMTP in application.properties
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=your-email@gmail.com
+spring.mail.password=your-app-password
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+⚠️ Use an "App Password" if 2FA is enabled on Gmail.
 
-### `npm test`
+2️⃣ Run the Spring Boot backend:
+mvn spring-boot:run
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📷 Screenshots
+🌟 Home Page:
+![image](https://github.com/user-attachments/assets/9ab0f6cb-15df-4ca7-97da-75edff5a72e7)
 
-### `npm run build`
+🌟 Projects Section:
+![image](https://github.com/user-attachments/assets/8c53ca6c-2dbf-4e9e-9f4c-1d071f27792a)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🌟 Contact Form:
+![image](https://github.com/user-attachments/assets/7b4cbdf0-ff54-40c1-960a-b260ee25bf82)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+💼 Connect With Me
+📌 GitHub: https://github.com/meenxkshii
+📌 LinkedIn: https://www.linkedin.com/in/meenakshirajeev/
+📌 Email:meenakshi.rajeev21@gmail.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🛠 Future Enhancements
+✅ Add a blog section
+✅ Improve animations
+✅ Deploy on Vercel or Netlify
 
-### `npm run eject`
+🌟 Feel free to fork, star, or contribute! 🚀
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
