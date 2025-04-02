@@ -1,9 +1,9 @@
-🌟 My Portfolio
+## 🌟 My Portfolio
 
 🚀 A personal portfolio website built with React & TailwindCSS, featuring project showcases, a contact form (integrated with a Spring Boot email service), and smooth UI animations.
 
 
-📌 Features
+## 📌 Features
 
 ✅ Beautiful UI – Modern design with a responsive layout
 
@@ -17,7 +17,7 @@
 
 ✅ Dark Theme – Stylish UI with background image support
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Frontend:
 
@@ -34,7 +34,7 @@ Backend:
 
 🛢️ MySQL Database (for storing form submissions)
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 1️⃣ Clone the repository:
 ```sh
 git clone https://github.com/your-username/portfolio.git
@@ -55,7 +55,7 @@ The website will be live at
 http://localhost:3000
 ```
 
-📩 Backend Setup (Spring Boot Email Service)
+## 📩 Backend Setup (Spring Boot Email Service)
 
 1️⃣ Configure SMTP in application.properties
 ```sh
@@ -73,7 +73,7 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 mvn spring-boot:run
 ```
 
-📷 Screenshots
+## 📷 Screenshots
 🌟 Home Page:
 ![image](https://github.com/user-attachments/assets/9ab0f6cb-15df-4ca7-97da-75edff5a72e7)
 
@@ -83,7 +83,7 @@ mvn spring-boot:run
 🌟 Contact Form:
 ![image](https://github.com/user-attachments/assets/7b4cbdf0-ff54-40c1-960a-b260ee25bf82)
 
-💼 Connect With Me
+## 💼 Connect With Me
 
 📌 GitHub: https://github.com/meenxkshii
 
