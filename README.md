@@ -4,11 +4,17 @@
 
 
 📌 Features
+
 ✅ Beautiful UI – Modern design with a responsive layout
+
 ✅ Dynamic Projects Section – Showcases key projects
+
 ✅ Contact Form – Integrated with Spring Boot backend to send emails
+
 ✅ Skills & Experience – Highlighting tech stack and expertise
+
 ✅ GitHub & LinkedIn Links – Easy access to my profiles
+
 ✅ Dark Theme – Stylish UI with background image support
 
 🛠 Tech Stack
