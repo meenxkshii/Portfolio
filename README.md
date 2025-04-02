@@ -12,37 +12,60 @@
 ✅ Dark Theme – Stylish UI with background image support
 
 🛠 Tech Stack
+
 Frontend:
+
 🌐 React.js
+
 🎨 TailwindCSS
+
 🏗️ Framer Motion (for animations)
+
 Backend:
 ☕ Spring Boot
+
 📩 SMTP Email Service (Gmail)
+
 🛢️ MySQL Database (for storing form submissions)
+
 🚀 Installation & Setup
 1️⃣ Clone the repository:
+```sh
 git clone https://github.com/your-username/portfolio.git
+```
+```sh
 cd portfolio
+```
 2️⃣ Install dependencies:
+```sh
 npm install
+```
 3️⃣ Start the development server:
+```sh
 npm start
-The website will be live at http://localhost:3000
+```
+The website will be live at 
+```sh
+http://localhost:3000
+```
 
 📩 Backend Setup (Spring Boot Email Service)
 
 1️⃣ Configure SMTP in application.properties
+```sh
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
 spring.mail.username=your-email@gmail.com
 spring.mail.password=your-app-password
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
+```
 ⚠️ Use an "App Password" if 2FA is enabled on Gmail.
 
 2️⃣ Run the Spring Boot backend:
+```sh
 mvn spring-boot:run
+```
 
 📷 Screenshots
 🌟 Home Page:
@@ -55,13 +78,19 @@ mvn spring-boot:run
 ![image](https://github.com/user-attachments/assets/7b4cbdf0-ff54-40c1-960a-b260ee25bf82)
 
 💼 Connect With Me
+
 📌 GitHub: https://github.com/meenxkshii
+
 📌 LinkedIn: https://www.linkedin.com/in/meenakshirajeev/
+
 📌 Email:meenakshi.rajeev21@gmail.com
 
 🛠 Future Enhancements
+
 ✅ Add a blog section
+
 ✅ Improve animations
+
 ✅ Deploy on Vercel or Netlify
 
 🌟 Feel free to fork, star, or contribute! 🚀
